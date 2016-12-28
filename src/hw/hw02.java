@@ -1,8 +1,8 @@
 package hw;
 /*
- * Topic: Åý¨Ï¥ÎªÌ¿é¤J¤@¥¿¾ã¼Æn¡A¿é¥X1+2+3+¡K+m<=nªº³Ì¤j¾ã¼Æm=?
+ * Topic: è®“ä½¿ç”¨è€…è¼¸å…¥ä¸€æ­£æ•´æ•¸nï¼Œè¼¸å‡º1+2+3+â€¦+m<=nçš„æœ€å¤§æ•´æ•¸m=?
  * Date: 2016/10/24
- * Author: 105021043 ¼B³Í¤å
+ * Author: 105021043 åŠ‰å‡±æ–‡
  */
 import java.util.Scanner;
 public class hw02 {
@@ -12,9 +12,8 @@ public class hw02 {
 		Scanner scn=new Scanner(System.in);
 		int n=scn.nextInt();
 		int m=0;
-
 		int sum=0;
-				while(sum<n){
+		    while(sum<n){
 			m++;
 			sum=sum+m;
 			if(sum>n){
@@ -22,9 +21,7 @@ public class hw02 {
 				else if(sum>=n){
 					System.out.print(m);
 				}
-			}
-						
-				
+			}	
 		}
 	}
 
